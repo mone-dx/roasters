@@ -2,7 +2,7 @@
 .hero-section {
   position: relative;
 
-  height: 100vh;
+  min-height: 100svh;
 
   display: flex;
   align-items: center;
@@ -10,11 +10,11 @@
 
   overflow: hidden;
 
+  padding: 120px 0 80px;
+
   color: #f5f5dc;
 
   background: url("../images/hero-beans.jpg") no-repeat center center/cover;
-
-  background-attachment: fixed;
 }
 
 .hero-overlay {
@@ -208,4 +208,9 @@
 .hero-buttons {
   display: flex;
   gap: 1rem;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
